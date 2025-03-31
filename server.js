@@ -3,7 +3,7 @@ const cors = require("cors");
 
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT =  5000;
 const N8N_WEBHOOK_URL = "https://shibirajj.app.n8n.cloud/webhook-test/3f04ef24-c861-40c1-a013-9bdf6dc3b0ac";
 
 // Middleware
